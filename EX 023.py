@@ -1,0 +1,8 @@
+n = input("Digite um número entre 0 e 9999: ")
+n = n.strip()
+n = n.replace(" ","")
+print("O número possui:")
+print("{} UNIDADES".format(n[-1]))
+print("{} DEZENAS".format(n[-2]))
+print("{} CENTENAS".format(n[-3]))
+print("{} UNIDADES DE MILHAR".format(n[-4]))

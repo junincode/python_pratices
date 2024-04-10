@@ -1,0 +1,5 @@
+n = input("Digite seu nome: ")
+n1 = (n.split()[0])
+n2 = (n.split()[-1])
+print("Primeito nome: {}".format(n1))
+print("Último nome: {}".format(n2))
